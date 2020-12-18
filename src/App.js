@@ -1,7 +1,7 @@
 import React from "react";
 
 import Cards from "./components/Cards/Cards";
-import Charts from "./components/Charts/Charts";
+import Chart from "./components/Chart/Chart";
 import CountryPicker from "./components/CountryPicker/CountryPicker";
 import styles from './App.module.css';
 import { fetchData } from "./api"
@@ -25,7 +25,7 @@ class App extends React.Component {
             <div className={styles.container}>
                 <Cards data={ data }/>
                 <CountryPicker />
-                <Charts />
+                <Chart />
 
             </div>
         )
